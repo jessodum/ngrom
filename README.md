@@ -23,8 +23,10 @@ Since it's only one source file and the Makefile is simple enough, you can proba
 
 ### Dependencies
 - **C++ compiler** (e.g., g++)
-- **Qt5 Core** libs and dev (headers) packages
+- **Qt5 Core** libs and dev (headers) packages*
 - _(Optional)_ **GNU make**
+
+*Note: I like Qt's `QCommandLineParser`, thus the need for the Qt5 Core library.  The `QFileInfo` class came in handy, too.  This utility is still just a command line executable, not a GUI.
 
 ## Potential Enhancements
 - Reverse conversion (BIN to SMD)
