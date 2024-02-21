@@ -1,3 +1,5 @@
+# Initially generated from GitHub's C++ .gitignore template
+
 # Prerequisites
 *.d
 
@@ -27,6 +29,7 @@
 *.lib
 
 # Executables
+ngrom
 *.exe
 *.out
 *.app
